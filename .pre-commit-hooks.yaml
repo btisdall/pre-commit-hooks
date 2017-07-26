@@ -1,0 +1,7 @@
+- id: cfn-validate
+  name: cfn-validate
+  description: Validate CloudFormation templates
+  language: script
+  types: [yaml]
+  entry: bin/cfn-validate.sh
+  files: ''
